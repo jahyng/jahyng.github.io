@@ -3,3 +3,4 @@
 
 ## Here are some of the prjects I have worked on!
 [Linked List Project](https://jahyng.github.io/LinkedListProject)
+[Lab Reports](https://jahyng.github.io/cse15l-lab-reports/)
