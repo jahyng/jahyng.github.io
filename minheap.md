@@ -222,6 +222,7 @@ public class MyMinHeap<E extends Comparable<E>> implements MinHeapInterface <E>{
 
 
 ### Then I created a class called Ticket for the prioirty queue. A ticket would give the student's name and what they need help with.  
+
 <details><summary>Code for the Ticket class</summary>
 
 ```
