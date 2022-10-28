@@ -1,8 +1,8 @@
 # Tutor Hour Ticket Project
 
-### In this project I crerated  a priority queue that would be able to take inputs of different tickets for tutor hours and order the students accordingly. 
+## In this project I crerated  a priority queue that would be able to take inputs of different tickets for tutor hours and order the students accordingly. 
 
-First I created a min heap that would be used to implement a priority queuefor the waitlist.
+### First I created a min heap that would be used to implement a priority queuefor the waitlist.
 <details><summary> Code for the min heap</summary>
 
 ```
@@ -221,7 +221,7 @@ public class MyMinHeap<E extends Comparable<E>> implements MinHeapInterface <E>{
 </details>
 
 
-Then I created a class called Ticket for the prioirty queue. A ticket would give the student's name and what they need help with.  
+### Then I created a class called Ticket for the prioirty queue. A ticket would give the student's name and what they need help with.  
 <details><summary>Code for the Ticket class</summary>
 
 ```
@@ -415,7 +415,7 @@ public class Ticket implements Comparable<Ticket>{
 ```
 </details>
 
-Third, I utilized the prioirty queue to create a waitlist for students that show up to tutor hours online.
+### Third, I utilized the prioirty queue to create a waitlist for students that show up to tutor hours online.
 <details><summary> Code for the prioirty queue</summary>
 
 ```
