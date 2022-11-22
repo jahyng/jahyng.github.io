@@ -3,6 +3,7 @@
 ## In this project I crerated  a priority queue that would be able to take inputs of different tickets for tutor hours and order the students accordingly. 
 
 ### First I created a min heap that would be used to implement a priority queue for the waitlist.
+
 <details><summary> Code for the min heap</summary>
 
 ```
