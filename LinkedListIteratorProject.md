@@ -4,5 +4,7 @@ In this project, I created my own linked list and an iterator that goes through 
 
 [Linked List and Iterator Code](https://raw.githubusercontent.com/jahyng/LinkedListIteratorProject/main/MyLinkedList.java)
 
-I then designed several tests to ensure that the code functions correctly. Here is a link to the code I used to create the tests: [Test Code](https://raw.githubusercontent.com/jahyng/LinkedListIteratorProject/main/MyLinkedListCustomTester.java)
+I then designed several tests to ensure that the code functions correctly. Here is a link to the code I used to create the tests: 
+
+[Test Code](https://raw.githubusercontent.com/jahyng/LinkedListIteratorProject/main/MyLinkedListCustomTester.java)
 
