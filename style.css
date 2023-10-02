@@ -9,13 +9,23 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #888888;
-
+    overflow: hidden;
 }
 
 li {
     float: left
 }
-a {
+li a {
     display: block;
-    padding: 10px;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: antiquewhite;
+}
+
+.active {
+    background-color: blueviolet;
 }
