@@ -13,3 +13,8 @@ ul {
 li {
     display: inline;
 }
+a {
+    display: block;
+    padding: 10px;
+    background-color: #202020;
+}
