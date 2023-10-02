@@ -8,6 +8,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #202020;
+
 }
 
 li {
@@ -16,5 +18,4 @@ li {
 a {
     display: block;
     padding: 10px;
-    background-color: #202020;
 }
