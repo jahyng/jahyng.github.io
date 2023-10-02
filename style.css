@@ -8,8 +8,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #888888;
-
 }
 
 li {
@@ -18,4 +16,6 @@ li {
 a {
     display: block;
     padding: 10px;
+    background-color: #888888;
+
 }
