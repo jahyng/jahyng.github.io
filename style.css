@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-    display: inline;
+    float: left
 }
 a {
     display: block;
