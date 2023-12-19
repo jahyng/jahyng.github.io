@@ -6,6 +6,7 @@ ul {
     margin: 0;
     padding: 10px 12px;
     overflow: hidden;
+    background-color: green;
 }
 
 li {
