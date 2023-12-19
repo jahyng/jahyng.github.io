@@ -4,8 +4,7 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: #888888;
+    padding: 10px 12px;
     overflow: hidden;
 }
 
@@ -20,7 +19,7 @@ li a {
 }
 
 li a:hover {
-    background-color: antiquewhite;
+    background-color: rgb(216, 138, 37);
 }
 
 .active {
