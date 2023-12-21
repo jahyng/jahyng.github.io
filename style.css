@@ -1,9 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .topbar{
-    background-color: green;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -13,9 +14,17 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 14px;
  }
 
 .topbar a:hover {
-    background-color: blue;
+    background-color: grey;
     color: white;
+}
+
+.topbar b {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
