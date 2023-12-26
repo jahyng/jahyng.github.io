@@ -39,9 +39,10 @@
   .proj_column {
     float: left;
     width: 33.33%;
+    text-align: center;
   }
   .proj_column:hover{
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 4px;
   }
   /* Clear floats after the columns */
