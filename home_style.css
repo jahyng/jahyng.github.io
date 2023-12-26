@@ -52,7 +52,7 @@
     position: relative;
     display: inline-block;
   }
-  .proj_column a .image-container img{
+  .image-container img{
     display: inline-block;
     width: 33.333%;
     height: auto;
