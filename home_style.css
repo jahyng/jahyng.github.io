@@ -45,6 +45,11 @@
     background-color: white;
     border-radius: 4px;
   }
+  .proj_column a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
   /* Clear floats after the columns */
   .proj_row:after {
     content: "";
