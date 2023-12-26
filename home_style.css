@@ -52,8 +52,8 @@
   }
   .proj_column a .image-container img{
     display: inline-block;
-    width: 100%;
-    height: 100px;
+    width: 33.333%;
+    /* height: 300px; */
     filter: brightness(50%);
   }
   .proj_column a .image-container .overlay-text{
