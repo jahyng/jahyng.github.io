@@ -55,7 +55,6 @@
   .image-container img{
     display: inline-block;
     width: 80%;
-    height: 100%;
     filter: brightness(50%);
   }
   .proj_column a .image-container .overlay-text{
