@@ -75,4 +75,23 @@
     clear: both;
   }
 
-
+  .header {
+    overflow: hidden;
+    background-color: aliceblue;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    line-height: 25px;
+    font-size: 18px;
+    border-radius: 4px;
+    
+}
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: darkgrey;
+    border-radius: 4px;
+}
