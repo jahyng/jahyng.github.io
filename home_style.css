@@ -76,12 +76,12 @@
   }
 
   .header {
-    overflow: hidden;
+    overflow:auto;
     background-color: aliceblue;
     padding: 20px 10px;
 }
 .header a {
-    float: left;
+    float: right;
     text-decoration: none;
     text-align: center;
     padding: 12px;
@@ -89,7 +89,7 @@
     line-height: 25px;
     font-size: 18px;
     border-radius: 4px;
-    
+
 }
 .header a:hover, .dropdown:hover .dropbtn {
     background-color: darkgrey;
