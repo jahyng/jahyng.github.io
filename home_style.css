@@ -77,12 +77,20 @@
 
   .header {
     overflow: hidden;
+    padding: 10px 20px;
   }
 
   .header a {
     text-decoration: none;
     color: black;
-    float: right;
-    padding: 10px 20px;
+    float: left;
+    font-size: 16px;
+  }
+  .header a.logo {
     font-size: 20px;
+    font-weight: bold;
+  }
+
+  .header-right {
+    float: right;
   }
