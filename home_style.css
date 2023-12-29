@@ -85,6 +85,9 @@
     color: black;
     float: left;
     font-size: 16px;
+    padding: 12px;
+    line-height: 25px;
+
   }
   .header a.logo {
     font-size: 20px;
