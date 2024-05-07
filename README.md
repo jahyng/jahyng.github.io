@@ -1,1 +1,1 @@
-Use [jahyng.github.io/home](jahyng.github.io)
+Use [jahyng.github.io/home](jahyng.github.io/home)
