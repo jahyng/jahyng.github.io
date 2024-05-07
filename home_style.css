@@ -80,7 +80,7 @@ html{
 
   .header {
     overflow: hidden;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
 
   .header a {
@@ -88,8 +88,8 @@ html{
     color: black;
     float: left;
     font-size: 16px;
-    padding: 12px;
-    line-height: 25px;
+    padding: 16px;
+    line-height: 10px;
 
   }
   .header a.logo {
@@ -99,4 +99,12 @@ html{
 
   .header-right {
     float: right;
+  }
+
+  .intro_container {
+    font-family: sans-serif;
+  }
+
+  projects_container {
+    
   }
