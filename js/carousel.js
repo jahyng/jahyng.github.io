@@ -11,9 +11,9 @@ console.log(slidesWidth);
 
 
 //arrangethe slides next to one another
-for (let i = 0; i < slides.length; i++) {
-    slides[i].style.left = slidesWidth *i + 'px';
-}
+slides.forEach((slide,  index) => {
+    slide.style.left = slidesWidth * index + 'px';
+})
 // when i click left move slies to the left
 // when i click right move slides to the right
 // when i click nav indicators move to slide of clicked indicator
