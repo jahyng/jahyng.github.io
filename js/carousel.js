@@ -10,10 +10,21 @@ const slidesWidth = slides[0].getBoundingClientRect().width;
 console.log(slidesWidth);
 
 
-//arrangethe slides next to one another
-slides.forEach((slide,  index) => {
+//arrange the slides next to one another
+const setSlidePosition = (slide, index) => {
     slide.style.left = slidesWidth * index + 'px';
-})
-// when i click left move slies to the left
-// when i click right move slides to the right
-// when i click nav indicators move to slide of clicked indicator
+}
+slides.forEach(setSlidePosition);
+
+// TODO: when i click left move slies to the left
+
+// TODO: when i click right move slides to the right
+nextButton.addEventListener('click', e => {
+    const currentSlide = track.querySelector('.current-slide');
+    const nextSlide = currentSlide.nextElementSibling;
+    const amountToMove = nextSlide.style.left;
+    //move to the next slide
+    track.style.transform = translateX(-' + amountToMove + ');
+});
+// TODO: when i click nav indicators move to slide of clicked indicator
+

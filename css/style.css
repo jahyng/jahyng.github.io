@@ -96,6 +96,9 @@ body{
     padding: 0;
     margin: 0;
     list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250 ms ease-in;
   }
   
   .carousel_slide {
