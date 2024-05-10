@@ -73,19 +73,19 @@ body{
     border-radius: 4px;
   }
 
-  .image-container{
+  .image-container {
     position: relative;
     display: inline-block;
     
   }
 
-  .image-container img{
+  .image-container img {
     display: inline-block;
     width: 100%;
     filter: brightness(50%);
   }
 
-  .image-container .overlay-text{
+  .image-container .overlay-text {
     position: absolute;
     top: 50%;
     color: yellow;
