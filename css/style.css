@@ -88,9 +88,9 @@ body{
   .image-container .overlay-text {
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 23%;
     color: yellow;
-    font-size: 40px;
+    font-size:xx-large;
     font-weight: bold;
   }
   
