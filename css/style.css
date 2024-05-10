@@ -76,11 +76,12 @@ body{
   .image-container{
     position: relative;
     display: inline-block;
+    
   }
 
   .image-container img{
     display: inline-block;
-    width: 80%;
+    width: 100%;
     filter: brightness(50%);
   }
 
@@ -88,7 +89,8 @@ body{
     position: absolute;
     top: 50%;
     color: yellow;
-    font-size: 50px;
+    padding: 1px;
+    font-size: 100px;
     font-weight: bold;
   }
   
