@@ -45,4 +45,5 @@ dotsNav.addEventListener('click', e => {
     const targetDot = e;
 
     console.log(e.target);
+    console.log("test");
 });
