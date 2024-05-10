@@ -75,7 +75,7 @@ body{
 
   .image-container{
     position: relative;
-    display: flex;
+    display: inline-block;
   }
 
   .image-container img{
