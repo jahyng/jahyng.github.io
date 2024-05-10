@@ -99,7 +99,7 @@ body{
     list-style: none;
     position: relative;
     height: 100%;
-    transition: transform 250ms ease-in;
+    transition: transform 300ms ease-in;
   }
   
   .carousel_slide {
@@ -145,4 +145,8 @@ body{
 
   .carousel_indicator.current-slide {
     background: rgba(0, 0, 0, .75);
+  }
+
+  .is-hidden {
+    display: none;
   }
