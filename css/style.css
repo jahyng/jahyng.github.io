@@ -109,6 +109,20 @@ body{
     width: 100%;
   }
 
+  .carousel_image-container {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .carousel_image_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .carousel_button {
     position: absolute;
     top: 50%;
@@ -134,6 +148,7 @@ body{
     justify-content: center;
     padding: 15px 0;
   }
+
   .carousel_indicator {
     border: 0;
     border-radius: 50%;
