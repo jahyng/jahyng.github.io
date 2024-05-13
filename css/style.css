@@ -99,7 +99,7 @@ body{
   .carousel {
     position: relative;
     height: 600px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -136,23 +136,29 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 200px;
+    height: 50%;
     background: transparent;
     border: 0;
   }
 
   .carousel_button img {
-    width: 40px
+    width: 40%;
+    object-fit: cover;
   }
   .carousel_button--right{
-    right: -50px;
+    right: 0px;
+    border-radius: 6px 0 0 6px;
   }
   .carousel_button--left{
-    left: -50px;
+    left: 0px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .carousel_button--left:hover, .carousel_button--right:hover {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .carousel_nav {
-    /* background: pink; */
     display: flex;
     justify-content: center;
     padding: 15px 0;
@@ -173,3 +179,4 @@ body{
   .is-hidden {
     display: none;
   }
+
