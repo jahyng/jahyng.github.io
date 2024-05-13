@@ -73,6 +73,10 @@ body{
     border-radius: 4px;
   }
 
+  .section-container {
+    background-color: aliceblue;
+  }
+
   .image-container{
     position: relative;
     display: inline-block;
@@ -99,7 +103,7 @@ body{
   .carousel {
     position: relative;
     height: 600px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -142,13 +146,17 @@ body{
   }
 
   .carousel_button img {
-    width: 40px
+    width: 40%
   }
   .carousel_button--right{
-    right: -50px;
+    right: 0px;
   }
   .carousel_button--left{
-    left: -50px;
+    left: 0px;
+  }
+
+  .carousel_button--left:hover, .carousel_button--right:hover {
+    background-color: rgba(0,0,0,0.3);
   }
 
   .carousel_nav {
@@ -173,3 +181,4 @@ body{
   .is-hidden {
     display: none;
   }
+

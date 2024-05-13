@@ -31,6 +31,8 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
     if (targetIndex === 0) {
         prevButton.classList.add('is-hidden');
         nextButton.classList.remove('is-hidden');
+        console.log('prev button is hidden: '+prevButton.classList.contains('is-hidden'));
+
         
     } else if (targetIndex === slides.length - 1) {
         prevButton.classList.remove('id-hidden');
@@ -38,7 +40,9 @@ const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
     } else {
         prevButton.classList.remove('is-hidden');
         nextButton.classList.remove('is-hidden');
+        console.log('prev button is hidden: '+prevButton.classList.contains('is-hidden'));
     }
+    console.log('targetIndex: ' + targetIndex);
 }
 
 // When I click left move slies to the left
