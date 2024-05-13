@@ -73,10 +73,6 @@ body{
     border-radius: 4px;
   }
 
-  .section-container {
-    background-color: aliceblue;
-  }
-
   .image-container{
     position: relative;
     display: inline-block;
