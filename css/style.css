@@ -147,14 +147,17 @@ body{
   }
   .carousel_button--right{
     right: 0px;
+    border-radius: 6px 0 0 6px;
+
   }
   .carousel_button--left{
     left: 0px;
+    border-radius: 0 6px 6px 0;
+
   }
 
   .carousel_button--left:hover, .carousel_button--right:hover {
     background-color: rgba(0,0,0,0.5);
-    border-radius: 6px 0 0 6px;
   }
 
   .carousel_nav {
