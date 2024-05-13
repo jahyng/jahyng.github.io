@@ -72,11 +72,34 @@ body{
     display: block;
     border-radius: 4px;
   }
+
+  .image-container{
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container img{
+    display: inline-block;
+    width: 80%;
+    filter: brightness(50%);
+  }
+
+  .image-container .overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: yellow;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 50px;
+    font-weight: bold;
+  }
   
   .carousel {
     position: relative;
     height: 600px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -127,23 +150,29 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 200px;
+    height: 50%;
     background: transparent;
     border: 0;
   }
 
   .carousel_button img {
-    width: 40px
+    width: 40%;
+    object-fit: cover;
   }
   .carousel_button--right{
-    right: -50px;
+    right: 0px;
+    border-radius: 6px 0 0 6px;
   }
   .carousel_button--left{
-    left: -50px;
+    left: 0px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .carousel_button--left:hover, .carousel_button--right:hover {
+    background-color: rgba(0,0,0,0.5);
   }
 
   .carousel_nav {
-    /* background: pink; */
     display: flex;
     justify-content: center;
     padding: 15px 0;
@@ -165,3 +194,4 @@ body{
   .is-hidden {
     display: none;
   }
+
