@@ -148,12 +148,10 @@ body{
   .carousel_button--right{
     right: 0px;
     border-radius: 6px 0 0 6px;
-
   }
   .carousel_button--left{
     left: 0px;
     border-radius: 0 6px 6px 0;
-
   }
 
   .carousel_button--left:hover, .carousel_button--right:hover {
@@ -161,7 +159,6 @@ body{
   }
 
   .carousel_nav {
-    /* background: pink; */
     display: flex;
     justify-content: center;
     padding: 15px 0;
