@@ -84,17 +84,6 @@ body{
     filter: brightness(50%);
   }
 
-  .image-container .overlay-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: yellow;
-    padding: 1px;
-    border-radius: 4px;
-    font-size: 50px;
-    font-weight: bold;
-  }
   
   .carousel {
     position: relative;
@@ -103,10 +92,28 @@ body{
     margin: 0 auto;
   }
 
+  .carousel_image-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .carousel_image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(90%);
+  }
+
+  a .carousel_image-container .carousel_overlay-text {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    background-color: white;
+    padding:1%;
+    border-radius: 4px 4px 4px 4px;
   }
 
   .carousel_track-container {
@@ -134,7 +141,7 @@ body{
 
   .carousel_image-container {
     position: relative;
-    color: white;
+    color: black;
     font-size: xx-large;
     font-weight: bold;
   }
@@ -144,6 +151,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 6px 6px 6px 6px;
   }
 
   .carousel_button {
@@ -169,7 +177,7 @@ body{
   }
 
   .carousel_button--left:hover, .carousel_button--right:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(200,200,200,0.5);
   }
 
   .carousel_nav {
