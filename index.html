@@ -29,14 +29,85 @@
                 </p></p>
         </div>
 
-        <!-- Project Section -->
-        <h1>Projects</h1>
-        <div class="image-container">
-            <img src="img/cat with hard hat.avif" alt="groceries">
-            <div class = "overlay-text">
-                Under Construction!
+        <!-- Carousel Section -->
+        <div class="section-container">
+            <!-- section header -->
+            <center>
+                <p style="font-size: xx-large; font-weight: bold;">
+                    Projects
+                </p>
+            </center>
+
+            <!-- image carousel -->
+            <div class="carousel">    
+                <div class="carousel_track-container">
+                    <ul class="carousel_track">
+                        <!-- in store nav -->
+                        <li class="carousel_slide current-slide">
+                            <a href="in_store_nav/in_store_nav.html">
+                                <div class="carousel_image-container">
+                                    <img class="carousel_image" src="in_store_nav/img/figma_screen-1.svg" alt="">
+                                    <div class="carousel_overlay-text">
+                                        In Store Navigator
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- personalized emojis -->
+                        <li class="carousel_slide">
+                            <a href="emojis/emojis.html">
+                                <div class="carousel_image-container">
+                                    <img class="carousel_image" src="emojis/img/memojis.webp" alt="">
+                                    <div class="carousel_overlay-text">
+                                        Research on Personalized Emojis
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- successorator -->
+                        <li class="carousel_slide">
+                            <a href="successorator/successorator.html">
+                                <div class="carousel_image-container">       
+                                    <img class="carousel_image" src="successorator/img/Task-manager-apps-740x380.jpg" alt="">
+                                    <div class="carousel_overlay-text">
+                                        Successorator App
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- prompt-a-week -->
+                        <li class="carousel_slide">
+                            <a href="https://sites.google.com/ucsd.edu/prompt-a-week?usp=sharing">
+                                <div class="carousel_image-container">                                
+                                    <img class="carousel_image" src="prompt-a-week/img/prompt-a-week.svg" alt="">
+                                    <div class="carousel_overlay-text">
+                                        Prompt-a-Week
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- right arrow (nextButton) -->
+                <button class="carousel_button carousel_button--right"> 
+                    <img src="img/arrow-right.png" alt="right_arrow">
+                </button>
+
+                <!-- left arrow (prevButton) -->
+                <button class="carousel_button carousel_button--left is-hidden">
+                    <img src="img/arrow-left.png" alt="left_arrow">
+                </button>
             </div>
-        </div>
+
+            <!-- carousel navbar (dots) -->
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div> 
+        </div> 
 
          <!-- About Section -->
          <div class="container" id="about">
@@ -59,7 +130,6 @@
                 </div>
             </div>
         </div>
-       
         <script src = "js/carousel.js"></script>
 
        
@@ -82,6 +152,10 @@
                     </i>
                 </a>
             </div>
+        </div>
+        <div class="container" id="mentions">
+            <h2>mentions</h2>
+            <a target="_blank" href="https://icons8.com/icon/39789/chevron-left">Chevron</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
         </div>
     </body>
 </html>
