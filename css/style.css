@@ -3,7 +3,7 @@ body{
 }
 .header {
     overflow: hidden;
-    background-color: grey;
+    /* background-color: white; */
     padding: 20px 10px;
 }
 .header a {
@@ -12,7 +12,7 @@ body{
     text-align: center;
     padding: 12px;
     line-height: 25px;
-    color: white;
+    color: black;
     font-size: 18px;
     border-radius: 4px;
 }
@@ -70,6 +70,21 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
     border-radius: 4px;
+  }
+
+  .intro_container {
+    background: url("../img/background.jpg");
+    color: aliceblue
+  }
+
+  .intro_container .intro_name {
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+  }
+
+  .intro_container .intro_description--text {
+    left: -50%;
   }
 
   .carousel {
