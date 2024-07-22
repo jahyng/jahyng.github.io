@@ -31,16 +31,20 @@ font-family: Arial, Helvetica, sans-serif;}
 }
 
 .intro_row  {
-  padding: 25%;
-  background-color: aliceblue;
+  padding: 15%;
+  background-image: url("/img/background.jpg");
+  background-position: 50% 50%;
+  color: white;
   font-family: serif;
   font-style: italic;
+  overflow: hidden;
 }
 
 .intro_row .intro-name {
   display: inline-block;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 100px;
+  animation: fadeInLeft 2s;
 }
 
 .intro_row .intro-text {
@@ -48,7 +52,7 @@ font-family: Arial, Helvetica, sans-serif;}
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: fadeInLeft 2s; 
+  animation: fadeInLeft 2s;
 }
 
 @keyframes fadeInLeft {
