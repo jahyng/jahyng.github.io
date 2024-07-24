@@ -1,22 +1,29 @@
 body {
-font-family: Arial, Helvetica, sans-serif;}
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("/img/background.jpg");
+background-position: fixed;
+background-position: center;
+color: white;
+}
 .header {
   overflow: hidden;
   padding: 20px 10px;
-  background-color: aliceblue;
-}
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;}
 .header a {
   float: left;
   text-decoration: none;
   text-align: center;
   padding: 12px;
   line-height: 25px;
-  color: black;
+  color: white;
   font-size: 18px;
   border-radius: 4px;
 }
 .header a:hover, .dropdown:hover .dropbtn {
-  background-color: white;
   border-radius: 4px;
 }
 .header a.active {
@@ -30,39 +37,42 @@ font-family: Arial, Helvetica, sans-serif;}
   float: right;
 }
 
-.intro_row  {
-  padding: 15%;
-  background-image: url("/img/background.jpg");
-  background-position: 50% 50%;
+#intro {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 10%;
   color: white;
   font-family: serif;
   font-style: italic;
   overflow: hidden;
+  animation: fadeInTop 2s;
 }
 
-.intro_row .intro-name {
+#intro .intro-box {
+}
+
+#intro .intro-name {
   display: inline-block;
   font-weight: bold;
   font-size: 100px;
-  animation: fadeInLeft 2s;
 }
 
-.intro_row .intro-text {
+#intro .intro-text {
   display: inline-block;
   width: 100%;
   white-space: nowrap;
+  font-size: 150%;
   overflow: hidden;
-  animation: fadeInLeft 2s;
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeInTop {
   0% {
      opacity: 0;
-     transform: translateX(-20px);
+     transform: translateY(-20px);
   }
   100% {
      opacity: 1;
-     transform: translateX(0);
+     transform: translateY(0);
   }
 } 
 
