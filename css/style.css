@@ -1,10 +1,10 @@
 body {
   font-family: serif;
   font-style: italic;
-  background-image: url("/img/background.jpg");
+  background: url("/img/background.jpg");
+  background-size: cover;
   background-color: rgba(0,0,0,0.2);
   background-blend-mode: darken;
-  background-position: fixed;
   background-position: center;
   color: white;
 }
