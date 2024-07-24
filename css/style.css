@@ -3,39 +3,33 @@ body {
   font-style: italic;
   background: url("/img/background.jpg");
   background-size: cover;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.25);
   background-blend-mode: darken;
   background-position: center;
+  background-attachment: fixed;
   color: white;
 }
 .header {
   overflow: hidden;
+  position: absolute;
   padding: 20px 10px;
+  top: 0;
+  width: 100%;
 }
 .header a {
-  float: left;
-  text-decoration: none;
-  text-align: center;
-  padding: 12px;
-  padding-left: 25px;
-  padding-right: 25px;
-  line-height: 25px;
   color: white;
+  text-decoration: none;
   font-size: 25px;
-  border-radius: 4px;
+  float: none;
+  text-align: center;
+  padding: 14px 16px;
+  
 }
 .header a:hover, .dropdown:hover .dropbtn {
   background: rgba( 255, 255, 255, 0.1 );
-  backdrop-filter: blur( 5px );
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur( 5px );
   border-radius: 10px;
-}
-
-
-.header-right {
-  float: right;
-  font-size: 30px;
-  padding-right: 100px;
 }
 
 #intro {
