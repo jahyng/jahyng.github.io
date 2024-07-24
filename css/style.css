@@ -31,10 +31,7 @@ body {
   border-radius: 10px;
 }
 
-.header a.logo {
-  font-size: 30px;
-  font-weight: bolder;
-}
+
 .header-right {
   float: right;
   font-size: 30px;
