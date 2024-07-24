@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: serif;
   font-style: italic;
@@ -10,22 +14,19 @@ body {
   color: white;
 }
 .header {
-  overflow: hidden;
-  position: absolute;
-  padding: 20px 10px;
-  top: 0;
-  width: 100%;
+  border-radius: 4px;
+  text-align: center;
 }
 .header a {
   color: white;
   text-decoration: none;
   font-size: 25px;
   float: none;
-  text-align: center;
   padding: 14px 16px;
-  
+  border-radius: 10px;
+  display: inline-block;  
 }
-.header a:hover, .dropdown:hover .dropbtn {
+.header a:hover{
   background: rgba( 255, 255, 255, 0.1 );
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur( 5px );
