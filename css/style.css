@@ -1,41 +1,44 @@
 body {
   font-family: serif;
   font-style: italic;
-background-image: url("/img/background.jpg");
-background-position: fixed;
-background-position: center;
-color: white;
+  background-image: url("/img/background.jpg");
+  background-color: rgba(0,0,0,0.2);
+  background-blend-mode: darken;
+  background-position: fixed;
+  background-position: center;
+  color: white;
 }
 .header {
   overflow: hidden;
   padding: 20px 10px;
-  background: rgba( 255, 255, 255, 0.2 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5px );
-  -webkit-backdrop-filter: blur( 5px );
-  border-radius: 10px;}
+}
 .header a {
   float: left;
   text-decoration: none;
   text-align: center;
   padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
   line-height: 25px;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 4px;
 }
 .header a:hover, .dropdown:hover .dropbtn {
-  border-radius: 4px;
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
 }
-.header a.active {
-  background-color: rgb(34, 177, 177);
-}
+
 .header a.logo {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
 }
 .header-right {
   float: right;
+  font-size: 30px;
+  padding-right: 100px;
 }
 
 #intro {
@@ -47,9 +50,6 @@ color: white;
   font-style: italic;
   overflow: hidden;
   animation: fadeInTop 2s;
-}
-
-#intro .intro-box {
 }
 
 #intro .intro-name {
